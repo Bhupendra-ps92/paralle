@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+  <test name="classes1">
+  <parameter name="browser" value="chrome"/>
+  <packages>
+		<package name="folder_1"/>
+		<package name="folder_2"/>
+		<package name="folder_3"/>  
+  </packages>
+  </test> <!-- Test -->
+  
+  <test name="classes2">
+  <parameter name="browser" value="edge"/>
+  <packages>
+		<package name="folder_1"/>
+		<package name="folder_2"/>
+		<package name="folder_3"/>  
+  </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="classes2(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="folder_2.Class_4">
+        <methods>
+          <include name="Test4" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- folder_2.Class_4 -->
+      <class name="folder_1.Class_2">
+        <methods>
+          <include name="Test2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- folder_1.Class_2 -->
+      <class name="folder_2.Class_3">
+        <methods>
+          <include name="Test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- folder_2.Class_3 -->
+      <class name="folder_1.Class_1">
+        <methods>
+          <include name="Test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- folder_1.Class_1 -->
+      <class name="folder_3.Class_5">
+        <methods>
+          <include name="Test5" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- folder_3.Class_5 -->
+    </classes>
+  </test> <!-- classes2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
